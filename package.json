@@ -1,0 +1,23 @@
+{
+  "name": "calculator-node-server",
+  "version": "1.0.0",
+  "description": "This is a calculator in nodejs on a web server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tusshar-developer/calculator-node-server.git"
+  },
+  "author": "Tusshar-developer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tusshar-developer/calculator-node-server/issues"
+  },
+  "homepage": "https://github.com/Tusshar-developer/calculator-node-server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

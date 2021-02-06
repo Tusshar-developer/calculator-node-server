@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Error 404! Page Not Found</title>
+  </head>
+  <body>
+    <h1 class="error-msg"></h1>
+    <script type="text/javascript">
+      var path = window.location.pathname;
+      document.querySelector(
+        ".error-msg"
+      ).textContent = `Error 404: '${path}' Not Found`;
+    </script>
+  </body>
+</html>
